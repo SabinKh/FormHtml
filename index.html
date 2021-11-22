@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h2>Application form</h2>
+        <form action="Form">
+            <label for="name">Ad:</label><br>
+            <input type="text" id="name" required><br><br>
+            <label for="surname">Soyad:</label><br>
+            <input type="text" id="surname" required><br><br>
+            <label for="">Şifrə</label><br>
+            <input type="password" id="password" required> <br>
+            <p>Cinsinizi seçin</p>
+            <input type="radio" name="gender">
+            <label for="">Qadın</label> <br>
+            <input type="radio" name="gender">
+            <label for="">Kişi</label> <br>
+            <!-- <label for="">Bitirdiyiniz təhsil dərəcələrini seçin.</label> -->
+            <p>Bitirdiyiniz təhsil dərəcələrini seçin</p>
+            <input type="checkbox" name="middle" id="middle">
+            <label for="middle">Orta</label><br>
+            <input type="checkbox" name="bachelor" id="bachelor">
+            <label for="bachelor">Bakalavr</label><br>
+            <input type="checkbox" name="master" id="master">
+            <label for="master">Magistr</label><br>
+            <input type="checkbox" name="doctor" id="doctor">
+            <label for="doctor">Doktor</label><br><br>
+
+            <label for="age">Yaş</label><br>
+            <input type="number" min="14" max="70"><br><br>
+            <label for="height">Boy</label><br>
+            <input type="text" size="5"><br><br>
+            <input type="submit" class="submit" name="submit" value="Təsdiqlə">
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
